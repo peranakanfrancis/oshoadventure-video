@@ -122,7 +122,7 @@ class Template extends React.Component {
         <div className="video-background">
           <div className="video-foreground">
             <YouTube
-              videoId="Z6FPJOgfCkc"
+              videoId="IszmduG-pCg"
               opts={videoOptions}
               className="video-iframe"
               onReady={this._onReady}
