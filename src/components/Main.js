@@ -86,10 +86,10 @@ class Main extends React.Component {
             <p id="my-form-status"></p>
           </form>
           <ul className="icons">
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-google"><span className="label">Google</span></a></li>
+            <li><a href="https://facebook.com/oshoworldadventure" target="_blank" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a href="https://www.linkedin.com/in/nepal-tour-operator-058b304a/" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=9779851190991&text=I%20would%20like%20to%20partner%20up." target="_blank" className="icon fa-whatsapp"><span className="label">WhatsApp</span></a></li>
+            <li><a href="https://web.wechat.com/aayogorkhali" target="_blank" className="icon fa-wechat"><span className="label">WeChat</span></a></li>
           </ul>
           {close}
         </article>
