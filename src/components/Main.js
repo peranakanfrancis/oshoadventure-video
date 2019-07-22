@@ -45,7 +45,7 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Team behind Osho World Adventure</h2>
+          <h2 className="major">Who are we?</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <h3>We are Pioneer in Nepal Toursim</h3>
           <p>Osho World Adventure is a travel technology provider that understands both fields: travel and technology. We built in-house our own internet booking engine. It has all travel services on one single platform - flights, hotels, car rentals, transfers, packages, cruises, train, buses, events and more - offered by major global suppliers as well as local suppliers all over the world. We are constantly looking for new opportunities to extend our inventory by adding new travel services and new suppliers. You can make a search in over 100 countries, compare the offers and find the best one without opening many tabs. We have different travel technology solutions for you that serve different business purposes. All travel agents, tour operators and travel management companies can benefit from Osho World Adventure.</p>
