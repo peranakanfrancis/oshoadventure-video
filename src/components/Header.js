@@ -9,7 +9,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Osho World Adventure</h1>
-                <p>Nepal's first one-stop solution for travel agents and corporate, gain access to a wide breadth of quality travel products, impressive rates, last-minute availability, and a world-class booking experience including hotels, tours, activities, transfers and car rentals.</p>
+                <p>Nepal's first one-stop online travel digital solution for travel agents and corporate, gain access to a wide breadth of quality travel products, impressive rates, last-minute availability, and a world-class booking experience including hotels, tours, activities, transfers and car rentals.</p>
             </div>
         </div>
         <nav>

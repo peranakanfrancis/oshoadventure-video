@@ -16,7 +16,7 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="ota" className={`${this.props.article === 'ota' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Online Travel Agents (OTA)</h2>
+          <h2 className="major">Online Travel Agents</h2>
           <span className="image main"><img src={bg01} alt="" /></span>
           <h3>Empower agents and increase efficiency with a ready-built, web-based booking platform that combines accommodations, flights, car rentals, and activities.</h3>
           <p><a href="https://hotelbooknepal.com" target="_blank">HotelBookNepal</a> is a leading Nepal's online travel company that provides a wide range of travel needs in one platform, enabling customers to create moments together with their loved ones. Traveloka offers flights, hotels, attractions & activities, tours, transports, airport transports, and buses.</p>
@@ -60,7 +60,7 @@ class Main extends React.Component {
           <h4>White Label Solution</h4>
           <p>Alternatively, for B2B distributions, white label solutions provide you with a simple frame to display Osho World Adventure products. We may not have invented customer service- but we’ve perfected it, and provide it to our clients at no additional cost 24/7 in 6 different languages (English, Hindi, Nepali, Malay, Chinese, Russian). So you can rest assured that the products you buy from us will come with the very best support whenever you need.</p>
           <h3>Want to sell to us?</h3>
-          <p>Send us a message, and one of our account managers will determine if you’re eligible to distribute your product with us.</p>
+          <p><a href="#">Send us a message</a>, and one of our account managers will determine if you’re eligible to distribute your product with us.</p>
           {close}
         </article>
 
